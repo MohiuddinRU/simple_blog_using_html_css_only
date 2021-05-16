@@ -1,0 +1,88 @@
+.topnav{
+    overflow: hidden;
+    background-color: black;
+}
+
+.topnav a{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a:hover{
+    background-color: #ddd;
+    color: black;
+}
+.topnav a.active{
+    background-color: #04AA6D;
+    color: white;
+}
+
+figure{
+    float: right ;
+    text-align: center;
+    border: 1px solid red;
+    margin: 0px 20px;
+    padding: 15px; 
+}
+figure > img{
+    width: 300px;
+}
+body{
+    margin-left: 20px;
+    font-family: arial, helvetica, sans-serif;
+}
+p{
+    text-align: justify;
+}
+h2{
+    color: red;
+    text-align: left;
+}
+table, th, td{
+    border: 2px solid black;
+    text-align: center;
+}
+table{
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+}
+thead th:nth-child(1){
+    width: 5%;
+}
+thead th:nth-child(2){
+    width: 20%;
+}
+thead th:nth-child(3){
+    width: 15%;
+}
+thead th:nth-child(4){
+    width: 15%;
+}
+thead th:nth-child(5){
+    width: 45%;
+}
+th, td{
+    padding: 8px;
+}
+footer{
+    background: rgb(119, 116, 117);
+    position: relative; 
+    left: 0px;
+    right: 0px;
+    bottom: 0;
+    text-align: center;
+    color: rgb(13, 33, 59); 
+    margin-top: 20px; 
+}
+ul{
+    columns: 4;
+}
+#references{
+    width: 100%;
+    padding: 10px;
+}
+
